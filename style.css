@@ -67,7 +67,13 @@ body a {
     width: 206px;
 }
 
-.gov-logo-social {
+.gov-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.gov-i-social {
     margin-left: 4px;
 }
 
@@ -79,4 +85,34 @@ img {
 
 .logo-social {
     border-style: none;
+}
+
+.text-social {
+    font-weight:100;
+    margin-left: 7px;
+    font-size: 11.5px;
+    color: #696969;
+    margin-top: 24px;
+    font-family: 'Montserrat', verdana, sans-serif
+}
+
+.traco {
+    background-color: gray;
+    margin: 0 10px 0 10px;
+    height: 25px;
+    width: 1px;
+    margin-left: 35px;
+}
+
+.gov-acessibilidade {
+    width: 24px;
+    height: 23px;
+    padding-left: 1rem;
+    margin-left: 5px;
+}
+
+.nav-main {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
 }
