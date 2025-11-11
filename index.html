@@ -3,64 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>cadastro-vestibulinho</title>
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="d-flex justify-content-between">
-    <div class="logo-sp">
-        <a href="https://www.sp.gov.br/sp" target="_blank">
-            <img src="images/logo-sp.jpg" alt="Logo do Estado de São Paulo" style="width: 300px;" >
-        </a>
-    </div>
-    <nav class="govsp-navbar border-bottom-1">
-        <a class="govsp-social" href="https://www.flickr.com/governosp/" target="_blank">
-            <img width="26" height="25" class="govsp-icon-social" src="images/icons/icons8-flickr-48.png" alt="Flickr Governo de São Paulo">
-        </a>
-        <a class="govsp-social" href="https://www.linkedin.com/company/governosp/" target="_blank">
-            <img width="26" height="25" class="icon-social" src="images/icons/icons8-linkedin-48.png" alt="Linkedin Governo de São Paulo">
-        </a>
-        <a class="govsp-social" href="https://www.tiktok.com/@governosp" target="_blank">
-            <img width="26" height="25" class="icon-social" src="images/icons/icons8-tiktok-48.png" alt="TikTok Governo de São Paulo">
-        </a>
-        <a class="govsp-social" href="https://www.youtube.com/governosp/" target="_blank">
-            <img width="26" height="25" class="icon-social" src="images/icons/icons8-youtube-24.png" alt="Youtube Governo de São Paulo">
-        </a>
-        <a class="govsp-social" href="https://www.twitter.com/governosp/" target="_blank">
-            <img width="26" height="25" class="icon-social" src="images/icons/icons8-twitterx-50.png" alt="Facebook Governo de São Paulo">
-        </a>
-        <a class="govsp-social" href="https://www.instagram.com/governosp/" target="_blank"> <!--    FALTA ADICIONAR O ÍCONE DO INSTAGRAM!!!    -->
-            <img width="26" height="25" class="icon-social" src="images/icons/" alt="Instagram Governo de São Paulo">
-        </a>
-        <a class="govsp-social" href="https://www.facebook.com/governosp/" target="_blank">
-            <img width="26" height="25" class="icon-social" src="images/icons/icons8-facebook-24.png" alt="Facebook Governo de São Paulo">
-        </a>
-        <p class="govsp-social" style="min-height:auto;">/governosp</p>
-        <div id="separador-nav"></div>                                                  <!--    FALTA ADICIONAR OS ÍCONES DE ACESSIBILIDADE    -->
-        <a class="govsp-acessibilidade" href="javascript:mudaTamanho('body', 1);">
-            <img width="24" height="23" class="acessibilidade" src="https://assets.fatvestibulares.com.br/vestibulinhoetec/assets/js/govsp/header-icons/i-big-font.png" alt="Aumentar Fonte">
-        </a>
-        <a class="govsp-acessibilidade" href="javascript:mudaTamanho('body', -1);">
-            <img width="24" height="23" class="acessibilidade" src="https://assets.fatvestibulares.com.br/vestibulinhoetec/assets/js/govsp/header-icons/i-small-font.png" alt="Diminuir Fonte">
-        </a>
-        <a class="govsp-acessibilidade" href="#" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">
-            <img width="24" height="23" class="acessibilidade" src="https://assets.fatvestibulares.com.br/vestibulinhoetec/assets/js/govsp/header-icons/i-contrast.png" alt="Contraste">
-        </a>
-        <a class="govsp-acessibilidade" href="http://www.saopaulo.sp.gov.br/fale-conosco/comunicar-erros/" title="Comunicar Erros" target="_blank">
-            <img width="27" height="23" class="acessibilidade" src="https://assets.fatvestibulares.com.br/vestibulinhoetec/assets/js/govsp/header-icons/i-error-report.png">
-        </a>
-    </nav>
-</header>
 
-<div class="image">
-    <img src="wallpaper-inscricao" alt="">
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <header>
+        <section class="gov-topo">
+            <div class="container-gov-topo">
+                <div class="img-link gov-topo-fundo-img-sp">
+                    <div class="gov-topo-img-sp">
+                        <a href="http://www.saopaulo.sp.gov.br/" target="_blank">
+                                <img class="logo-sp" src="./logo-sp.png" alt="Governo do Estado de São Paulo">
+                        </a>
+                    </div>
+                </div>
+                <nav class="gov-nav">
+                    <a class="logo-social" href="https://www.flickr.com/governosp/" target="_blank">
+                        <img class="gov-i-social" src="./i-flickr.png" alt="Logo do flickr">
+                    </a>
+                    <a class="logo-social" href="https://www.linkedin.com/company/governosp/" target="_blank">
+                        <img class="gov-i-social" src="./i-linkedin.png" alt="Logo do linkedin">
+                    </a>
+                    <a class="logo-social" href="https://www.tiktok.com/@governosp" target="_blank">
+                        <img class="gov-i-social" src="./i-tiktok.png" alt="Logo do tiktok">
+                    </a>
+                    <a class="logo-social" href="https://www.youtube.com/governosp/" target="_blank">
+                        <img class="gov-i-social" src="./i-youtube.png" alt="Logo do youtube">
+                    </a>
+                    <a class="logo-social" href="https://www.twitter.com/governosp/" target="_blank">
+                        <img class="gov-i-social" src="./i-twitter.png" alt="Logo do twitter">
+                    </a>
+                    <a class="logo-social" href="https://www.instagram.com/governosp/" target="_blank">
+                        <img class="gov-i-social" src="./i-insta.png" alt="Logo do instagram">
+                    </a>
+                    <a class="logo-social" href="https://www.facebook.com/governosp/" target="_blank">
+                        <img class="gov-i-social" src="./i-facebook.png" alt="Logo do facebook">
+                    </a>
+                    <p class="text-social">
+                        /governosp
+                    </p>
+                    <div class="traco"></div>
+                    <a class="gov-acessibilidade" href="">
+                        <img src="./i-big-font.png" alt="Aumentar Fonte">
+                    </a>
+                    <a class="gov-acessibilidade" href="">
+                        <img src="./i-small-font.png" alt="Diminuir Fonte">
+                    </a>
+                    <a class="gov-acessibilidade" href="">
+                        <img src="./i-contrast.png" alt="Aumentar Fonte">
+                    </a>
+                    <a class="gov-acessibilidade" href="http://www.saopaulo.sp.gov.br/fale-conosco/comunicar-erros/">
+                        <img src="./i-error-report.png" alt="Diminuir Fonte">
+                    </a>
+                </nav>
+            </div>
+        </section>
+        <nav class="nav-main">
+            <div class="container-main">
+                <div class="logos-nav">
+                    <a class="logo-etec" href="/home">
+                        <img class="img-etec" src="./logotipo-etec.png" alt="Etec - Escola Técnica Estadual">
+                    </a>
+                    <a class="logo-cps" href="/home">
+                        <img class="img-cps" src="./logo-cps-header.png" alt="Etec - Escola Técnica Estadual">
+                    </a>
+                </div>
+                    <nav>
+                        <ul class="ul-nav">
+                            <div class="group-every-nav">
+                                <div class="group-home">
+                                    <a href="">
+                                    <li>HOME<li></a>
+                                </div>
+                                <div class="group-calendario">
+                                    <a href="">
+                                    <li>CALENDÁRIO<li></a>
+                                </div>
+                                <div class="group-duvidas">
+                                    <a href="">
+                                    <li>DÚVIDAS FREQUENTES<li></a>
+                                </div>
+                                <div class="group-fale">
+                                    <a href="">
+                                    <li>FALE CONOSCO<li></a>
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+                <a href="">
+                <div class="container-area-candidato">
+                    <p class="text-area-candidato">
+                        Área do candidato
+                    </p>    
+                </a>
+                </div>
+                <div class="fat">
+                <p class="text-fat">
+                    Realização:
+                </p>
+                <img class="img-fat" src="./logo-fat-header.png" alt="Logo da Fundação FAT">
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
